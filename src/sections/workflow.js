@@ -68,7 +68,9 @@ const styles = {
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
     position: 'relative',
-    py: [8, null, 9, null, null, 10],
+    py: [8, null, 9, null, null, 80],
+    pt: ['90px', null, null, '80px'],
+    pb: [7, null, null, null, '80px'],
   },
   grid: {
     mb: -1,
