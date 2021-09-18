@@ -4,7 +4,7 @@ import { Link } from 'components/link';
 import Logo from 'components/logo';
 import menuItems from './footer.data';
 
-// import FooterLogo from 'assets/footer-logo.svg';
+import FooterLogo from 'assets/footer-logo.svg';
 // import CallToAction from 'sections/call-to-action';
 export default function Footer() {
   return (
@@ -13,9 +13,9 @@ export default function Footer() {
       <Container sx={styles.footer.container}>
         <Box sx={styles.footer.footerTopArea}>
           <Box sx={styles.copyrightArea}>
-            <Box className="footer__logo">
-              {/* <Logo src={FooterLogo} /> */}
-            </Box>
+            {/* <Box className="footer__logo">
+              <Logo src={FooterLogo} />
+            </Box> */}
             <nav className="footer__menu">
               <Link path="/" label="Terms of use" />
               <Link path="/" label="Privacy" />
@@ -61,7 +61,7 @@ const styles = {
     footerTopArea: {
       display: 'flex',
       flexWrap: 'wrap',
-      pt: ['60px', null, null, null, 8],
+      pt: ['60px', null, null, null],
       pb: [7, null, null, null, '30px'],
       pl: [0, null, 4, 6, null, 7],
       pr: [0, null, 4, 6],
