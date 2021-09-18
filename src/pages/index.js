@@ -8,6 +8,7 @@ import Banner from 'sections/banner';
 import Services from 'sections/services';
 import Jackpot from 'sections/jackpot';
 import CallToAction from 'sections/call-to-action';
+import WorkFlow from '../sections/workflow';
 import Featured from 'sections/featured';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
@@ -25,6 +26,7 @@ export default function IndexPage() {
           <Services />
           <Jackpot />
           <CallToAction />
+          <WorkFlow />
           <Featured />
           <Pricing />
           <Testimonials />
