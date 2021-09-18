@@ -1,6 +1,29 @@
-import { FaFacebook, FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
-
 export default [
+  {
+    header: 'Company',
+    items: [
+      {
+        path: '/',
+        label: 'About',
+      },
+      {
+        path: '/',
+        label: 'Affiliate',
+      },
+      {
+        path: '/',
+        label: 'Careers & Culture    ',
+      },
+      {
+        path: '/',
+        label: 'Blog',
+      },
+      {
+        path: '/',
+        label: 'Press',
+      },
+    ],
+  },
   {
     header: 'About Us',
     items: [
@@ -19,6 +42,10 @@ export default [
       {
         path: '/',
         label: 'Copyright',
+      },
+      {
+        path: '/',
+        label: 'Popular Campaign',
       },
     ],
   },
@@ -41,6 +68,10 @@ export default [
         path: '/',
         label: 'Site Map',
       },
+      {
+        path: '/',
+        label: 'Store Hours',
+      },
     ],
   },
   {
@@ -62,34 +93,30 @@ export default [
         path: '/',
         label: 'Images & B-roll',
       },
+      {
+        path: '/',
+        label: 'Permissions',
+      },
     ],
   },
   {
-    header: 'Contact',
+    header: 'Policy',
     items: [
       {
         path: '/',
-        label: 'Facebook',
-        name: 'facebook',
-        icon: <FaFacebook />,
+        label: 'Application security',
       },
       {
         path: '/',
-        label: 'Twitter',
-        name: 'twitter',
-        icon: <FaTwitter />,
+        label: 'Software principles',
       },
       {
         path: '/',
-        label: 'Github',
-        name: 'github',
-        icon: <FaGithub />,
+        label: 'Unwanted software policy',
       },
       {
         path: '/',
-        label: 'Dribbble',
-        name: 'dribbble',
-        icon: <FaDribbble />,
+        label: 'Responsible supply chain',
       },
     ],
   },
