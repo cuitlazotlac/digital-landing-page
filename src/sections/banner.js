@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Image, Heading } from 'theme-ui';
 import { keyframes } from '@emotion/core';
-import logoImage from 'assets/banner-logo.png';
+// import logoImage from 'assets/logo_transparent.png';
 import bannerImage from 'assets/banner-mockup.png';
 import bannerIcon1 from 'assets/dot-pattern.svg';
 import bannerIcon2 from 'assets/dot-pattern.svg';
@@ -10,6 +10,7 @@ import bannerIcon4 from 'assets/dot-pattern.svg';
 import bannerIcon5 from 'assets/dot-pattern.svg';
 import bannerIcon6 from 'assets/dot-pattern.svg';
 import bannerIcon7 from 'assets/dot-pattern.svg';
+import backgroundImage from 'assets/background.png';
 
 const Banner = () => {
   return (
@@ -58,8 +59,8 @@ const Banner = () => {
           src={bannerIcon7}
         />
 
-        <Image sx={styles.logo} src={logoImage} alt="logo image" />
-        <Heading as="h2">Create beautiful landing page in few minutes</Heading>
+        {/* <Image sx={styles.logo} src={logoImage} alt="logo image" /> */}
+        <Heading as="h2">We don't care about our name, but we do care about your business.</Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>
@@ -129,9 +130,9 @@ const bannerAnim3 = keyframes`
 
 const styles = {
   banner: {
-    // overflow: 'hidden',
-    // backgroundColor: '#F9FBFD',
-    backgroundImage: "url('https://example.jpg')",
+    overflow: 'hidden',
+    backgroundColor: '#F9FBFD',
+    backgroundImage: "url('assets/background.png')",
     textAlign: 'center',
     pt: ['110px', null, null, null, '130px'],
     h2: {
@@ -149,9 +150,9 @@ const styles = {
   },
   logo: {
     display: 'block',
-    borderRadius: '50%',
-    mx: 'auto',
-    boxShadow: '0px 15px 35px rgba(65, 104, 139, 0.12)',
+    // borderRadius: '50%',
+    // mx: 'auto',
+    // boxShadow: '0px 15px 35px rgba(65, 104, 139, 0.12)',
   },
   bannerImage: {
     display: 'block',
