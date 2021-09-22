@@ -21,16 +21,17 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 014" />
+          <SEO title="Unnamed Project" />
           <Banner />
           <Services />
           <Jackpot />
-          <CallToAction />
+          {/* <CallToAction /> */}
           <WorkFlow />
           <Featured />
           <Pricing />
           <Testimonials />
-          <Blogs />
+          {/* <Blogs /> */}
+          <br/>
           <FAQ />
           <Subscribe />
         </Layout>

@@ -45,6 +45,7 @@ const Jackpot = () => {
             </Box>
           </Box>
         </Flex>
+        <br/>
       </Container>
     </Box>
   );

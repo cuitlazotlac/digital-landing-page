@@ -62,7 +62,7 @@ const styles = {
       display: 'flex',
       flexWrap: 'wrap',
       pt: ['60px', null, null, null],
-      pb: [7, null, null, null, '30px'],
+      pb: [0, null, null, null, '30px'],
       pl: [0, null, 4, 6, null, 7],
       pr: [0, null, 4, 6],
     },

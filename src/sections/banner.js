@@ -3,12 +3,12 @@ import { Box, Container, Image, Heading } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import logoImage from 'assets/banner-logo.png';
 import bannerImage from 'assets/banner-mockup.png';
-import bannerIcon1 from 'assets/banner-icon-1-1.svg';
-import bannerIcon2 from 'assets/banner-icon-1-2.svg';
-import bannerIcon3 from 'assets/banner-icon-1-3.svg';
-import bannerIcon4 from 'assets/banner-icon-1-4.svg';
-import bannerIcon5 from 'assets/banner-icon-1-5.svg';
-import bannerIcon6 from 'assets/banner-icon-1-6.svg';
+import bannerIcon1 from 'assets/dot-pattern.svg';
+import bannerIcon2 from 'assets/dot-pattern.svg';
+import bannerIcon3 from 'assets/dot-pattern.svg';
+import bannerIcon4 from 'assets/dot-pattern.svg';
+import bannerIcon5 from 'assets/dot-pattern.svg';
+import bannerIcon6 from 'assets/dot-pattern.svg';
 import bannerIcon7 from 'assets/dot-pattern.svg';
 
 const Banner = () => {
@@ -129,8 +129,9 @@ const bannerAnim3 = keyframes`
 
 const styles = {
   banner: {
-    overflow: 'hidden',
-    backgroundColor: '#F9FBFD',
+    // overflow: 'hidden',
+    // backgroundColor: '#F9FBFD',
+    backgroundImage: "url('https://example.jpg')",
     textAlign: 'center',
     pt: ['110px', null, null, null, '130px'],
     h2: {
@@ -143,6 +144,7 @@ const styles = {
       mx: 'auto',
       mt: '30px',
       mb: ['40px', null, null, '65px'],
+      textDecoration: 'line-through'
     },
   },
   logo: {
