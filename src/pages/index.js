@@ -29,9 +29,9 @@ export default function IndexPage() {
           <WorkFlow />
           <Featured />
           <Pricing />
-          <Testimonials />
-          {/* <Blogs /> */}
-          <br/>
+          {/* <Testimonials /> */}
+          <Blogs />
+          {/* <br/> */}
           <FAQ />
           <Subscribe />
         </Layout>

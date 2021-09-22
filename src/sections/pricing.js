@@ -126,6 +126,64 @@ const PRICE_YEARLY_DATA = [
       },
     ],
   },
+  {
+    recommended: null,
+    title: 'For Team pack 2',
+    icon: priceIcon1, 
+    amount: '99.99/yr',
+    options: [
+      {
+        status: true,
+        label: 'Ultimate access to all course, exercises and assessments',
+      },
+      {
+        status: true,
+        label:
+          'Free access for all kind of exercise corrections with downloads.',
+      },
+      {
+        status: true,
+        label: 'Total assessment corrections with free download access system',
+      },
+      {
+        status: false,
+        label: 'Unlimited download of courses on the mobile app contents',
+      },
+      {
+        status: false,
+        label: 'Download and print courses and exercises in PDF',
+      },
+    ],
+  },
+  {
+    recommended: null,
+    title: 'For Team pack 3',
+    icon: priceIcon1,
+    amount: '99.99/yr',
+    options: [
+      {
+        status: true,
+        label: 'Ultimate access to all course, exercises and assessments',
+      },
+      {
+        status: true,
+        label:
+          'Free access for all kind of exercise corrections with downloads.',
+      },
+      {
+        status: true,
+        label: 'Total assessment corrections with free download access system',
+      },
+      {
+        status: false,
+        label: 'Unlimited download of courses on the mobile app contents',
+      },
+      {
+        status: false,
+        label: 'Download and print courses and exercises in PDF',
+      },
+    ],
+  },
 ];
 
 const Pricing = () => {

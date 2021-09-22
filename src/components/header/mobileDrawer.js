@@ -60,7 +60,7 @@ const MobileDrawer = () => {
     >
       <Scrollbars autoHide>
         <Box sx={styles.content}>
-          <Logo image={logoDark} />
+          <Logo sx={styles.logo} image={logoDark} />
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
               <ScrollLink
@@ -81,6 +81,7 @@ const MobileDrawer = () => {
             <Button variant="primary" sx={styles.button}>
               Purchase Now
             </Button>
+            <br />
             <Box sx={styles.social}>
               {social.map(({ path, icon }, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
@@ -132,6 +133,9 @@ const styles = {
     pt: "30px",
     pb: "40px",
     px: "30px",
+    a: {
+      width: "50%",
+    },
   },
 
   menu: {
@@ -158,25 +162,25 @@ const styles = {
   },
 
   social: {
-    width: '100%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    width: "100%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
 
     icon: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      color: 'text',
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      color: "text",
       fontSize: 14,
-      mr: '15px',
-      transition: 'all 0.25s',
-      cursor: 'pointer',
-      ':last-child': {
-        mr: '0',
+      mr: "15px",
+      transition: "all 0.25s",
+      cursor: "pointer",
+      ":last-child": {
+        mr: "0",
       },
-      '&:hover': {
-        color: 'secondary',
+      "&:hover": {
+        color: "secondary",
       },
     },
   },
