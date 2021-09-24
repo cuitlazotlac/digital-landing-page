@@ -13,14 +13,14 @@ const Subscribe = () => {
           <Box as="label" htmlFor="subscribeEmail" variant="styles.srOnly">
             Email
           </Box>
-          <Input
+          {/* <Input
             placeholder="Enter your email"
             type="email"
             id="subscribeEmail"
             sx={styles.input}
-          />
+          /> */}
           <Button type="submit" sx={styles.button}>
-            Subscribe us
+            Contact us
           </Button>
         </Box>
       </Container>
@@ -33,12 +33,13 @@ export default Subscribe;
 const styles = {
   subscribe: {
     py: ['80px', null, null, null, '80px', '100px', '140px'],
-    backgroundColor: '#020718',
+    backgroundColor: '#0F2137',
     h3: {
       textAlign: 'center',
+      fontWeight: '900',
       fontSize: ['23px', null, null, null, null, '30px', '36px'],
       lineHeight: [1.5, null, null, '1'],
-      color: '#fff',
+      color: '#FFF',
       letterSpacing: ['-0.5px'],
       mb: ['0px', null, null, '15px'],
       width: ['70%', null, null, 'auto'],
@@ -67,10 +68,10 @@ const styles = {
     width: ['100%'],
     maxWidth: ['100%', null, '370px', '380px'],
     borderRadius: '5px',
-    border: 'none',
-    backgroundColor: 'rgba(255,255,255, .08)',
+    border: 'black',
+    backgroundColor: 'rgba(255,255,255)',
     outline: 'none',
-    color: 'rgba(255,255,255, .8)',
+    color: 'rgba(255,255,255)',
     fontSize: '16px',
     pl: ['0px', null, null, '30px'],
     height: ['50px', null, null, '60px'],
@@ -78,20 +79,21 @@ const styles = {
     textAlign: ['center', null, null, 'left'],
   },
   button: {
-    backgroundColor: '#fff',
+    backgroundColor: '#020718',
     borderRadius: '5px',
-    fontWeight: '500',
+    fontWeight: '900',
     fontSize: ['18px'],
-    color: '#020718',
+    color: '#FFF',
     letterSpacing: '-0.5px',
     outline: 'none',
     padding: ['0px 30.75px'],
     minHeight: ['50px', null, null, '60px'],
     width: ['100%', null, null, 'auto'],
-    mt: ['10px', null, null, '0'],
-    mx: ['auto', null, null, '0'],
+    // mt: ['10px', null, null, '0'],
+    mx: ['auto', null, null, 'auto'],
     '&:hover': {
-      backgroundColor: '#fff',
+      backgroundColor: '#3F3835',
+      color: '#FFF',
       opacity: '0.8',
     },
   },
