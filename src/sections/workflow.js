@@ -62,10 +62,10 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: 'primary',
-    backgroundImage: `url(${PatternBG})`,
-    backgroundRepeat: `no-repeat`,
-    backgroundPosition: 'center center',
+    backgroundColor: '#0F2137',
+    // backgroundImage: `url(${PatternBG})`,
+    // backgroundRepeat: `no-repeat`,
+    // backgroundPosition: 'center center',
     backgroundSize: 'cover',
     position: 'relative',
     py: [8, null, 9, null, null, 80],
