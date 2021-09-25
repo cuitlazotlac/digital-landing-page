@@ -40,7 +40,7 @@ const Featured = () => {
     }
   };
   return (
-    <Box as="section" sx={styles.featured}>
+    <Box as="section" id="products" sx={styles.featured}>
       <Container sx={styles.container}>
         <BlockTitle
           title="What the features of product"

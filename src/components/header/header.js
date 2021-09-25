@@ -35,7 +35,7 @@ export default function Header({ className }) {
           <Link
             path="/"
             ml={2}
-            label="Purchase Now"
+            label="Contact Us"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />
