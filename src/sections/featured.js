@@ -4,9 +4,13 @@ import { keyframes } from '@emotion/core';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 import { AiFillDollarCircle, AiFillPieChart } from 'react-icons/ai';
-import { FaBriefcase, FaCog } from 'react-icons/fa';
+import { GiLightProjector } from "react-icons/gi";
+import { RiShoppingBag3Line } from "react-icons/ri";
+import { BiCustomize } from "react-icons/bi";
+import { FaBriefcase, FaCog, FaStore } from 'react-icons/fa';
 import tabImage1 from 'assets/tab-image-1.png';
 import dotPattern from 'assets/dot-pattern.svg';
+
 
 const Featured = () => {
   const [tab, setTab] = useState({
@@ -52,29 +56,29 @@ const Featured = () => {
               onClick={() => handleTab('budget')}
               className={`${tab.active === 'budget' ? 'active' : ''}`}
             >
-              <AiFillDollarCircle />
-              Budget Overview
+              <GiLightProjector />
+              Personnal Website
             </Button>
             <Button
               onClick={() => handleTab('adjust')}
               className={`${tab.active === 'adjust' ? 'active' : ''}`}
             >
-              <FaCog />
-              Create & adjust
+              <FaBriefcase />
+              Business Website
             </Button>
             <Button
               onClick={() => handleTab('report')}
               className={`${tab.active === 'report' ? 'active' : ''}`}
             >
-              <AiFillPieChart />
-              View Reports
+              <RiShoppingBag3Line />
+              Online Shop
             </Button>
             <Button
               onClick={() => handleTab('create')}
               className={`${tab.active === 'create' ? 'active' : ''}`}
             >
-              <FaBriefcase />
-              Create & adjust
+              <BiCustomize />
+              Customized Website
             </Button>
           </Box>
         </Box>
