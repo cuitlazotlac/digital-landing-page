@@ -3,34 +3,33 @@ import { jsx } from 'theme-ui';
 import { Container, Grid, Box, Heading, Text } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 
-import PatternBG from 'assets/patternBG.png';
 import ArrowOdd from 'assets/arrowOdd.svg';
 import ArrowEven from 'assets/arrowEven.svg';
 
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Ideation & Sketch',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Come with your ideas and inspirations and we will work on them together, with the help of our web and design experts. If you don\'t know where to start it\'s not a problem we will help you!',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Creative Process',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'We will work internally to offer you the most suitable solution and then we will work with you to make it more customized.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Design & Development',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'As for the development of your product, we always work in agile mode, that is to say that we work in iterative, at each step we will validate with you, before going to the next step. So we have a product that really meets your expectations.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Product Delivery',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'And that\'s it! We give you all the accesses for your site, you just have to enjoy!.',
   },
 ];
 
