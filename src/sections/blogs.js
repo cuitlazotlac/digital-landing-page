@@ -49,6 +49,45 @@ const BLOG_DATA = [
     path: '/',
     linkLabel: null,
   },
+  {
+    image: blogImage1,
+    title: 'How to work with prototype design with adobe xd featuring tools',
+    description:
+      'The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design',
+    path: '/',
+    linkLabel: 'Learn More',
+  },
+  {
+    image: null,
+    title:
+      'Antibias receives honorable gift mention at Fast Company’s most Innovation by Design Awards',
+    description: null,
+    path: '/',
+    linkLabel: null,
+  },
+  {
+    image: blogImage3,
+    title: 'Multiple task wireframing with team management perform better',
+    description: null,
+    path: '/',
+    linkLabel: null,
+  },
+  {
+    image: blogImage2,
+    title: 'Multiple art board prototype with Figma',
+    description:
+      'Beyond launched antibias, a Chrome extension that replaces LinkedIn profile photos',
+    path: '/',
+    linkLabel: 'Learn More',
+  },
+  {
+    image: blogImage4,
+    title:
+      'Team presentation with latest user interface & experience reach more',
+    description: null,
+    path: '/',
+    linkLabel: null,
+  },
 ];
 
 const masonryOptions = {
