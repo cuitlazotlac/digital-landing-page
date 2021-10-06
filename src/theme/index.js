@@ -4,12 +4,12 @@ export default {
   // example colors with dark mode
   breakpoints: ["376px", "576px", "768px", "992px", "1200px", "1650px"],
   colors: {
-    text: "#343D48", // body color and primary color
-    text_secondary: "#02073E", // secondary body color
-    heading: "#02073E", // primary heading color
-    heading_secondary: "#343D48", // heading color
-    background: "#FFFFFF", // body background color
-    background_secondary: "#FFFFFF", // secondary background color
+    text: "#FFFFFF", // body color and primary color
+    text_secondary: "#FFFFFF", // secondary body color
+    heading: "#FFFFFF", // primary heading color
+    heading_secondary: "#FFFFFF", // heading color
+    background: "#0E2236", // body background color
+    background_secondary: "#0E2236", // secondary background color
     border_color: "#E9EDF5", // border color
     primary: "#3F3835", // primary button and link color
     secondary: "#3F3835", // secondary color - can be used for hover states
